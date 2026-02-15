@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Kanit';
+    src: url('../../assets/fonts/Kanit/Kanit-Light.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0f0f;
+    height: 100vh;
+    user-select: none;
+}

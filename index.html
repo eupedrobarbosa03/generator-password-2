@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">    
+    <link rel="stylesheet" href="src/css/config.css">
+    <link rel="stylesheet" href="src/css/index.css">
+    <title>Generator Password v2</title>
+</head>
+<body>
+    <main class="main_container">
+        <h1>
+            <span class="effect-title">G</span><span class="effect-title">E</span><span class="effect-title">N</span><span class="effect-title">E</span><span class="effect-title">R</span><span class="effect-title">A</span><span class="effect-title">T</span><span class="effect-title">O</span><span class="effect-title">R</span>
+            <span class="effect-title">P</span><span class="effect-title">A</span><span class="effect-title">S</span><span class="effect-title">S</span><span class="effect-title">W</span><span class="effect-title">O</span><span class="effect-title">R</span><span class="effect-title">D</span>
+        </h1>
+        <section class="container_settings_generator_password">
+            <div class="container_type_chars">
+                <div class="container_check">
+                    <input type="checkbox" class="input_check" id="numbers">
+                    <p>Números</p>
+                </div>
+                <div class="container_check">
+                    <input type="checkbox" class="input_check" id="lettersUpper">
+                    <p>Letras Maiúsculas</p>
+                </div>
+                <div class="container_check">
+                    <input type="checkbox" class="input_check" id="lettersLower">
+                    <p>Minúsculas</p>
+                </div>
+                <div class="container_check">
+                    <input type="checkbox" class="input_check" id="symbols">
+                    <p>Símbolos</p>
+                </div>
+            </div>
+            <div class="container_range_password">
+                <input type="range" id="input_range_password" min="8" max="40" value="8">
+                <p id="range_password">Tamanho: <span id="range">8</span></p>
+            </div>
+            <div class="container_generated_password">
+                <p id="generated_password">
+                </p>
+                <i class="fa-regular fa-copy" id="icon_copy"></i>
+            </div>
+            <button id="button_generator_password">Gerar senha</button>
+        </section>
+    </main>
+    <script type="module" src="src/index.js"></script>
+    <script type="module" src="src/effects/titleEffect.js"></script>
+</body>
+</html>

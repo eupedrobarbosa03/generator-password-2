@@ -1,0 +1,135 @@
+.main_container {
+    background-color: #111;
+    min-height: 400px;
+    width: 600px;
+    padding: 1.5rem;
+}
+
+.main_container h1 {
+    color: rgba(242, 242, 242, .50);
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.effect-title.effect {
+    transition: .7s ease;
+    color: rgba(242, 242, 242, .80);
+}
+
+.container_settings_generator_password {
+    margin-top: 60px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.container_type_chars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container_check {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.container_check p {
+    color: rgba(242, 242, 242, .50);
+    text-transform: uppercase;
+    font-size: .6rem;
+}
+
+.input_check {
+    cursor: pointer;
+    accent-color: #096bff;
+}
+
+#range_password {
+    font-size: .8rem;
+    color: rgba(242, 242, 242, .50);
+    text-transform: uppercase;
+    margin-top: .5rem;
+    text-align: center;
+}
+
+#range {
+    color: rgba(242, 242, 242, .90);
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 8px;
+    background: rgba(242, 242, 242, .30);
+    border-radius: 0;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 8px;
+    background: rgba(242, 242, 242, .30);
+    border-radius: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    background: #096bff;
+    border-radius: 0;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+.container_generated_password {
+    border-bottom: 1px solid rgba(242, 242, 242, .30);
+    height: 50px;
+    min-width: 300px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.container_generated_password i {
+    margin: 0;
+    box-sizing: border-box;
+    color: rgba(242, 242, 242, .30);
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.container_generated_password i:hover {
+    background-color: rgba(242, 242, 242, .10);
+}
+
+#generated_password {
+    color: rgba(242, 242, 242, .80);
+    font-size: .8rem
+}
+
+#button_generator_password {
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(9, 107, 255, .70);
+    color: #f4f4f4;
+    text-transform: uppercase;
+    transition: .9s;
+    cursor: pointer;
+}
+
+#button_generator_password:hover {
+    background-color: rgb(9, 107, 255, .90);
+}
