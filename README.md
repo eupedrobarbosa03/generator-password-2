@@ -35,3 +35,14 @@ p {
   font-size: .9rem;
 }
 ```
+```javascript
+const project = (name) => console.log(`Projeto: ${name}`);
+project("Generator Password 2");
+```
+```typescript
+interface Project {
+  name: string;
+};
+const project: Project = {name: "Generator Password 2};
+console.log(`${Projeto: ${project.name}`);
+```
