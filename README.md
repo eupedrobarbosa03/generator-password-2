@@ -43,6 +43,6 @@ project("Generator Password 2");
 interface Project {
   name: string;
 };
-const project: Project = {name: "Generator Password 2};
+const project: Project = {name: "Generator Password 2"};
 console.log(`${Projeto: ${project.name}`);
 ```
