@@ -17,5 +17,5 @@
 **[✅] Múltiplas escolhas para definir qual tipo de senha será gerada. Exemplo: Deve conter números e símolos**.  
 **[✅] Definir o tamanho da senha com um range de 8 a 40 caracteres**.  
 **[✅] Copiar senha gerada**.  
-**[✅] Sistema de segurança que impossibilita de copiar sem ter a senha gerada e não ter o(s) tipo(s) de caracteres selecionado(s).  
+**[✅] Sistema de segurança** que impossibilita de copiar sem ter a senha gerada e não ter o(s) tipo(s) de caracteres selecionado(s).  
 **[✅] Experiência de usuário**: No momento da geração da senha, o input recebe "Gerando senha...". Alertas: Senha copiada e/ou nenhuma escolha de tipo de caracteres.  
