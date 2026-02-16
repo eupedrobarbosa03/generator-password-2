@@ -35,11 +35,11 @@ p {
   font-size: .9rem;
 }
 ```
-```javascript
+```js
 const project = (name) => console.log(`Projeto: ${name}`);
 project("Generator Password 2");
 ```
-```typescript
+```ts
 interface Project {
   name: string;
 };
