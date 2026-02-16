@@ -24,3 +24,8 @@
 **[✅] Copiar senha gerada**.  
 **[✅] Sistema de segurança** que impossibilita de copiar sem ter a senha gerada e não ter o(s) tipo(s) de caracteres selecionado(s).  
 **[✅] Experiência de usuário**: No momento da geração da senha, o input recebe "Gerando senha...". Alertas: Senha copiada e/ou nenhuma escolha de tipo de caracteres.  
+
+---
+```html
+<p>Generator Password 2</p>
+```
