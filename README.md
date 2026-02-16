@@ -29,3 +29,9 @@
 ```html
 <p>Generator Password 2</p>
 ```
+```css
+p {
+  color: #fff;
+  font-size: .9rem;
+}
+```
